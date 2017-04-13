@@ -1,0 +1,25 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click here to display data"
+        android:id="@+id/display"
+        android:onClick="displayData"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/test"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/fishPriceList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingTop="10dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical"
+        />
+</LinearLayout>

@@ -1,0 +1,79 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".LoginActivity"
+    android:background="@drawable/back">
+
+    <TextView
+        android:text="Register Here!"
+        android:layout_width="320dp"
+        android:layout_height="76dp"
+        android:layout_x="54dp"
+        android:layout_y="65dp"
+        android:id="@+id/textView"
+        android:textColor="@android:color/background_light"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textSize="50dp"
+
+        />
+
+    <EditText
+        android:layout_width="144dp"
+        android:layout_height="74dp"
+        android:layout_gravity="center"
+        android:id="@+id/email"
+        android:layout_marginTop="30px"
+        android:hint="E-mail"
+        android:layout_x="82dp"
+        android:layout_y="222dp"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/background_light"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_gravity="center"
+        android:layout_width="440px"
+        android:layout_height="53dp"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:layout_x="83dp"
+        android:layout_y="283dp"
+        android:textColorHint="@android:color/background_light"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="37dp"
+        android:id="@+id/registerbtn"
+        android:layout_gravity="center"
+        android:background="?attr/colorAccent"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:text="Register"
+        android:layout_x="83dp"
+        android:layout_y="367dp"
+        android:textSize="20sp"
+        style="@style/Widget.AppCompat.Button" />
+
+    <Button
+        android:layout_width="177dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="10px"
+        android:id="@+id/login"
+        android:layout_gravity="center"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:text="Login Now"
+        android:layout_x="82dp"
+        android:layout_y="419dp"
+        android:textSize="20sp" />
+
+
+</AbsoluteLayout>

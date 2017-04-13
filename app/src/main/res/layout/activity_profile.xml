@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:layout_width="440px"
+        android:layout_gravity="center"
+        android:layout_marginTop="30px"
+        android:layout_height="80px"
+        android:id="@+id/chgbtn"
+        android:background="@drawable/btn_back"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:text="Change Password"
+        android:layout_x="25dp"
+        android:layout_y="40dp" />
+
+    <Button
+        android:layout_width="440px"
+        android:layout_gravity="center"
+        android:layout_marginTop="10px"
+        android:layout_height="80px"
+        android:id="@+id/logout"
+        android:background="@drawable/btn_blue_back"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:text="Logout"
+        android:layout_x="68dp"
+        android:layout_y="124dp" />
+
+</AbsoluteLayout>

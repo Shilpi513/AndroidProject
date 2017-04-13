@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_delete"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.shilpi.nodelogin.DeleteActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/textView" />
+
+
+        <Button
+            android:layout_width="440px"
+            android:layout_gravity="center"
+            android:layout_marginTop="30px"
+            android:layout_height="80px"
+            android:id="@+id/chgbtn"
+            android:background="@drawable/btn_back"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:text="Change Password"
+            android:layout_x="25dp"
+            android:layout_y="40dp" />
+
+        <Button
+            android:layout_width="440px"
+            android:layout_gravity="center"
+            android:layout_marginTop="10px"
+            android:layout_height="80px"
+            android:id="@+id/logout"
+            android:background="@drawable/btn_blue_back"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:text="Logout"
+            android:layout_x="68dp"
+            android:layout_y="124dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/delid"
+            android:hint="Enter ID of Document to be deleted"
+            android:paddingTop="40dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/delbtn"
+            android:onClick="delete"
+            android:text="Click here to DELETE"/>
+    </LinearLayout>
+</AbsoluteLayout>
